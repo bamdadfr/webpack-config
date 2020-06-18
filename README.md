@@ -19,9 +19,9 @@ yarn add --dev @bamdadsabbagh/webpack-config
 ```json
 {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config node_modules/@bamdadsabbagh/webpack-config/webpack.dev.js",
-    "build": "yarn build:clean && yarn build:webpack && yarn serve",
+    "build": "yarn build:clean && yarn build:webpack && yarn build:serve",
     "build:clean": "rm -rf dist/",
     "build:webpack": "cross-env NODE_ENV=production webpack --config node_modules/@bamdadsabbagh/webpack-config/webpack.prod.js",
-    "serve": "serve -s dist/"
+    "build:serve": "serve -s dist/"
 }
 ```
