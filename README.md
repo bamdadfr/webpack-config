@@ -1,27 +1,27 @@
-# Bamdad Sabbagh's ESLint config
+# Bamdad Sabbagh's webpack config
 
 ## Vendor
 
-> [ESLint](https://eslint.org) config.
+> [webpack](https://webpack.js.org/) config.
 
 ## npm
 
-> [npm](https://www.npmjs.com/package/@bamdadsabbagh/eslint-config) package.
+> [npm](https://www.npmjs.com/package/@bamdadsabbagh/webpack-config) package.
 
 ## Installation
 
 ```shell
-yarn add --dev @bamdadsabbagh/eslint-config
+yarn add --dev @bamdadsabbagh/webpack-config
 ```
 
 ## Usage
 
 ```json
 {
-    "extends": "@bamdadsabbagh/eslint-config"
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config node_modules/@bamdadsabbagh/webpack-config/webpack/webpack.dev.js",
+    "build": "yarn build:clean && yarn build:webpack && yarn serve",
+    "build:clean": "rm -rf dist/",
+    "build:webpack": "cross-env NODE_ENV=production webpack --config node_modules/@bamdadsabbagh/webpack-config/webpack/webpack.prod.js",
+    "serve": "serve -s dist/"
 }
 ```
-
-It will automatically handle `*.(js|jsx|ts|tsx)` files.
-
-It will be useful for `Node` apps (like express) as well as `React` apps.
