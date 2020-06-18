@@ -2,7 +2,7 @@
   "author": "Bamdad Sabbagh <hello@bamdadsabbagh.com>",
   "license": "MIT",
   "name": "@bamdadsabbagh/webpack-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Bamdad Sabbagh's webpack config",
   "keywords": [
     "bamdadsabbagh",
