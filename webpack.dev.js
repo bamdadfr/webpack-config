@@ -25,7 +25,9 @@ module.exports = merge (common, {
    */
     'devServer': {
         'historyApiFallback': true,
-        'contentBase': config.path.build,
+        // 'contentBase': config.path.build,
+        'contentBase': config.path.src,
+        'watchContentBase': true,
         'open': true,
         'compress': true,
         'hot': true,
