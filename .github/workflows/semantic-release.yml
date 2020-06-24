@@ -2,7 +2,7 @@ name: semantic-release
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '* * * * *'
 
 jobs:
 
