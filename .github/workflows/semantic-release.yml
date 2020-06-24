@@ -1,0 +1,26 @@
+name: semantic-release
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+
+jobs:
+
+  semantic-release:
+    name: semantic-release
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: git checkout
+        uses: actions/checkout@v2
+
+      - name: set up node 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+
+      - name: installing semantic-release
+        run: yarn global add semantic-release @semantic-release/github
+
+      - name: running semantic-release
+        run: semantic-release
