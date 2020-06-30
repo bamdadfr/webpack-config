@@ -17,9 +17,9 @@
     "postcss.config.js"
   ],
   "dependencies": {
-    "@babel/core": "^7.10.3",
-    "@babel/plugin-proposal-class-properties": "^7.10.1",
-    "@babel/preset-env": "^7.10.3",
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
     "@bamdadsabbagh/eslint-config": "^1.2.4",
     "@bamdadsabbagh/stylelint-config": "^1.2.2",
     "babel-loader": "^8.1.0",
