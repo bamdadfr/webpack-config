@@ -37,7 +37,6 @@
     "sass": "^1.26.10",
     "sass-loader": "^9.0.2",
     "serve": "^11.3.2",
-    "snyk": "^1.361.3",
     "style-loader": "^1.2.1",
     "terser-webpack-plugin": "^3.0.6",
     "typeface-poppins": "^0.0.72",
@@ -48,8 +47,6 @@
     "webpack-merge": "^5.0.9"
   },
   "scripts": {
-    "snyk-protect": "snyk protect",
-    "prepare": "yarn run snyk-protect"
-  },
-  "snyk": true
+    "sort:package": "npx sort-package-json"
+  }
 }
