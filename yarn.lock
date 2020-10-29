@@ -5600,9 +5600,9 @@ node-libs-browser@^2.2.1:
     vm-browserify "^1.0.1"
 
 node-releases@^1.1.61:
-  version "1.1.64"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.64.tgz#71b4ae988e9b1dd7c1ffce58dd9e561752dfebc5"
-  integrity sha512-Iec8O9166/x2HRMJyLLLWkd0sFFLrFNy+Xf+JQfSQsdBJzPcHpNl3JQ9gD4j+aJxmCa25jNsIbM4bmACtSbkSg==
+  version "1.1.65"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.65.tgz#52d9579176bd60f23eba05c4438583f341944b81"
+  integrity sha512-YpzJOe2WFIW0V4ZkJQd/DGR/zdVwc/pI4Nl1CZrBO19FdRcSTmsuhdttw9rsTzzJLrNcSloLiBbEYx1C4f6gpA==
 
 normalize-package-data@^2.3.2, normalize-package-data@^2.5.0:
   version "2.5.0"
@@ -7447,9 +7447,9 @@ sass-loader@^9.0.3:
     semver "^7.3.2"
 
 sass@^1.26.10:
-  version "1.27.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.27.1.tgz#fe4c730f2abfe1502ecff047798b35a7b792dc03"
-  integrity sha512-Co5i3s4kN0AgXe8ZFfIl4pfjHjPgotT81O68m3buwdj7v3oHjYiWNqp0oXTKXnEqyKU30KAYC5u8uUF4x+BKfw==
+  version "1.27.2"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.27.2.tgz#4e7128b25c523c06e0df1601bbbf9f49227f6670"
+  integrity sha512-8gUAdqW1sdNKcZ6ccf37WKIkuS/wP5tlK52QLNLV3e3JqqgT5ACuT/0CboDElnXJRD7ld+SRAd8oZ++nMI1mrQ==
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
 
