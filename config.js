@@ -19,8 +19,8 @@ config.loader = {
         'loader': 'postcss-loader',
         'options': {
             'sourceMap': !config.isProduction,
-            'config': {
-                'path': config.path.self,
+            'postcssOptions': {
+                'config': config.path.self,
             },
         },
     },
