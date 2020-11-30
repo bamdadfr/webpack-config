@@ -15,6 +15,12 @@
     <img src="https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/webpack-config">
 </p>
 
+<p align=center>
+    <img src="https://img.shields.io/npm/v/@bamdadsabbagh/webpack-config">
+    <img src="https://img.shields.io/npm/dw/@bamdadsabbagh/webpack-config">
+    <img src="https://img.shields.io/npm/dm/@bamdadsabbagh/webpack-config">
+</p>
+
 ## Vendor
 
 > [webpack](https://webpack.js.org/) config.
