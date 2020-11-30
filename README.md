@@ -1,4 +1,19 @@
-# Bamdad Sabbagh's webpack config
+#
+
+<p align=center>
+    Bamdad Sabbagh's webpack config
+</p>
+
+<p align=center>
+    <img src="https://img.shields.io/github/v/release/bamdadsabbagh/webpack-config">
+    <img src="https://api.codeclimate.com/v1/badges/6891219ecb0b930cb5e7/maintainability">
+</p>
+
+<p align=center>
+    <img src="https://img.shields.io/david/bamdadsabbagh/webpack-config">
+    <img src="https://img.shields.io/david/dev/bamdadsabbagh/webpack-config">
+    <img src="https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/webpack-config">
+</p>
 
 ## Vendor
 
