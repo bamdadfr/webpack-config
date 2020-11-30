@@ -1,6 +1,4 @@
 {
-  "author": "Bamdad Sabbagh <hello@bamdadsabbagh.com>",
-  "license": "MIT",
   "name": "@bamdadsabbagh/webpack-config",
   "version": "1.1.156",
   "description": "Bamdad Sabbagh's webpack config",
@@ -9,6 +7,8 @@
     "webpack"
   ],
   "repository": "github:bamdadsabbagh/webpack-config",
+  "license": "MIT",
+  "author": "Bamdad Sabbagh <hello@bamdadsabbagh.com>",
   "files": [
     "config.js",
     "webpack.common.js",
@@ -16,6 +16,11 @@
     "webpack.prod.js",
     "postcss.config.js"
   ],
+  "scripts": {
+    "package:clean": "rm -rf node_modules",
+    "package:reinstall": "yarn package:clean && yarn",
+    "package:sort": "npx sort-package-json"
+  },
   "dependencies": {
     "@babel/core": "^7.11.1",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
@@ -45,8 +50,5 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.1.1"
-  },
-  "scripts": {
-    "sort:package": "npx sort-package-json"
   }
 }
