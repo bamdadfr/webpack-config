@@ -1,24 +1,38 @@
 #
 
 <p align=center>
-    Bamdad Sabbagh's webpack config
+  <a href="https://www.npmjs.com/package/@bamdadsabbagh/webpack-config"><img width=150 src="https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png"></a>
 </p>
 
 <p align=center>
-    <img src="https://img.shields.io/github/v/release/bamdadsabbagh/webpack-config">
-    <img src="https://api.codeclimate.com/v1/badges/6891219ecb0b930cb5e7/maintainability">
+  Bamdad Sabbagh's webpack config
 </p>
 
 <p align=center>
-    <img src="https://img.shields.io/david/bamdadsabbagh/webpack-config">
-    <img src="https://img.shields.io/david/dev/bamdadsabbagh/webpack-config">
-    <img src="https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/webpack-config">
+  <a href="https://github.com/bamdadsabbagh/webpack-config"><img src="https://img.shields.io/github/stars/bamdadsabbagh/webpack-config?label=git"></a>
+  <img src="https://img.shields.io/github/license/bamdadsabbagh/webpack-config">
 </p>
 
 <p align=center>
-    <img src="https://img.shields.io/npm/v/@bamdadsabbagh/webpack-config">
-    <img src="https://img.shields.io/npm/dw/@bamdadsabbagh/webpack-config">
-    <img src="https://img.shields.io/npm/dm/@bamdadsabbagh/webpack-config">
+  <img src="https://img.shields.io/github/languages/count/bamdadsabbagh/webpack-config">
+  <img src="https://img.shields.io/github/languages/top/bamdadsabbagh/webpack-config">
+</p>
+
+<p align=center>
+  <img src="https://img.shields.io/github/v/release/bamdadsabbagh/webpack-config">
+  <img src="https://api.codeclimate.com/v1/badges/6891219ecb0b930cb5e7/maintainability">
+</p>
+
+<p align=center>
+  <img src="https://img.shields.io/david/bamdadsabbagh/webpack-config">
+  <img src="https://img.shields.io/david/dev/bamdadsabbagh/webpack-config">
+  <img src="https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/webpack-config">
+</p>
+
+<p align=center>
+  <img src="https://img.shields.io/npm/v/@bamdadsabbagh/webpack-config">
+  <img src="https://img.shields.io/npm/dw/@bamdadsabbagh/webpack-config">
+  <img src="https://img.shields.io/npm/dm/@bamdadsabbagh/webpack-config">
 </p>
 
 ## Vendor
