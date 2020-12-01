@@ -1,11 +1,15 @@
-#
+# <img width=25 src="https://i.imgur.com/qCFeJOK.png"> Webpack Config
 
 <p align=center>
-  <a href="https://www.npmjs.com/package/@bamdadsabbagh/webpack-config"><img width=150 src="https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png"></a>
+  <a href="https://www.npmjs.com/package/@bamdadsabbagh/webpack-config"><img width=150 src="https://i.imgur.com/qCFeJOK.png"></a>
 </p>
 
 <p align=center>
   Bamdad Sabbagh's webpack config
+</p>
+
+<p align=center>
+  <img src="https://img.shields.io/badge/role-lead-blueviolet">
 </p>
 
 <p align=center>
@@ -33,6 +37,11 @@
   <img src="https://img.shields.io/npm/v/@bamdadsabbagh/webpack-config">
   <img src="https://img.shields.io/npm/dw/@bamdadsabbagh/webpack-config">
   <img src="https://img.shields.io/npm/dm/@bamdadsabbagh/webpack-config">
+</p>
+
+<p align=center>
+  <img src="https://img.shields.io/badge/ci-github--actions-yellowgreen">
+  <img src="https://img.shields.io/badge/cd-docker-yellowgreen">
 </p>
 
 ## Vendor
