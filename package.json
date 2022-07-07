@@ -41,7 +41,7 @@
     "postcss-preset-env": "^6.7.0",
     "sass": "^1.26.10",
     "sass-loader": "^12.1.0",
-    "serve": "^12.0.0",
+    "serve": "^13.0.4",
     "style-loader": "^3.2.1",
     "terser-webpack-plugin": "^5.0.3",
     "typeface-poppins": "^1.1.13",
